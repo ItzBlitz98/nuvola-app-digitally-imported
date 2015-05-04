@@ -1,7 +1,7 @@
-Plug.dj for Nuvola Player 3
+Digitally Imported for Nuvola Player 3
 ===============================
 
-Integration of [plug.dj](https://plug.dj) into your linux desktop via
+Integration of [Digitally Imported](http://di.fm/) into your linux desktop via
 [Nuvola Player](https://github.com/tiliado/nuvolaplayer).
 
 Still needs some work but is functional.
@@ -9,7 +9,7 @@ Still needs some work but is functional.
 Support
 -------
 
-Report bugs and issues at <https://github.com/ItzBlitz98/nuvola-app-plug.dj/issues>.
+Report bugs and issues at <https://github.com/ItzBlitz98/nuvola-app-digitally-imported/issues>.
 
 Installation
 ------------
