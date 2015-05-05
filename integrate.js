@@ -55,7 +55,7 @@
             status = "stopped";
         }
 
-        if (status !== "stopped" && status !== "connecting..." && status !== "choose premium for the best audio experience" && status !== "Sponsored Message") {
+        if (document.querySelector('.artist-name') !== null) {
 
             state = PlaybackState.PLAYING;
 
