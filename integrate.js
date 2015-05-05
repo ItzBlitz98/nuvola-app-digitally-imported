@@ -51,14 +51,15 @@
         //the player on di takes a second to show up so wait for it if its not there
         try {
             status = document.getElementsByClassName('track-name')[0].innerHTML;
+            console.log(status);
         } catch (e) {
             status = "stopped";
         }
 
-        if (status !== "stopped" && status !== "connecting...") {
+        if (status !== "stopped" && status !== "connecting..." && status !== "choose premium for the best audio experience" && status !== "Sponsored Message") {
 
             state = PlaybackState.PLAYING;
-            
+
             //try has to be here or when song changes this will throw an error.
             try {
                 artist = document.getElementsByClassName('track-name')[0].getAttribute("title");
