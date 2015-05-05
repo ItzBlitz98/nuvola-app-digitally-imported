@@ -51,7 +51,6 @@
         //the player on di takes a second to show up so wait for it if its not there
         try {
             status = document.getElementsByClassName('track-name')[0].innerHTML;
-            console.log(status);
         } catch (e) {
             status = "stopped";
         }
